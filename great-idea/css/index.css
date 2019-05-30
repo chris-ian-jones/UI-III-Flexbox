@@ -72,12 +72,13 @@ h1, h2, h3, h4, h5 {
 }
 
 header nav {
-	display: inline-block;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
-header img {
-	display: inline-block;
-	vertical-align: bottom;
+header {
+	display: flex;
+	align-items: flex-end;
 }
 
 header a {
@@ -89,10 +90,10 @@ header a {
 
 .title {
 	padding-top: 50px;
+	display: flex;
 }
 
 .title-left-half {
-	display: inline-block;
 	width: 379px;
 	vertical-align: top;
 	padding-top: 80px;
@@ -100,7 +101,6 @@ header a {
 }
 
 .title-right-half {
-	display: inline-block;
 	width: 379px;
 	padding-left: 90px;
 }
@@ -129,18 +129,17 @@ h1 {
 	border-top: 1px solid black;
 	padding-top: 40px;
 	padding-bottom: 20px;
+	display: flex;
 }
 
 
 .upper-half-left {
-	display: inline-block;
 	width: 432px;
 	height: 100px;
 	padding-right: 10px;
 }
 
 .upper-half-right {
-	display: inline-block;
 	width: 432px;
 	height: 100px;
 }
@@ -151,22 +150,20 @@ h1 {
 
 .lower-content {
 	margin-top: 40px;
+	display: flex;
 }
 
 .lower-third-left {
-	display: inline-block;
 	width: 280px;
 	padding-right: 10px;
 }
 
 .lower-third-middle {
-	display: inline-block;
 	width: 280px;
 	padding-right: 10px;
 }
 
 .lower-third-right {
-	display: inline-block;
 	width: 280px;
 	padding-right: 0px;
 }
